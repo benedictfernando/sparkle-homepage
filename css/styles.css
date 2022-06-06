@@ -1,6 +1,4 @@
 html {
-    /* font-size: 8px;     /* For mobile */
-    font-size: 12px;    /* For desktop */
     box-sizing: border-box;
 }
 
@@ -17,6 +15,37 @@ body {
 
 /* for navbar */
 
-/* nav {
+nav {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
-} */
+nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+/* for main content */
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* footer */
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+}
