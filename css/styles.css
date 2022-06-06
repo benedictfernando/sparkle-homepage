@@ -1,0 +1,22 @@
+html {
+    /* font-size: 8px;     /* For mobile */
+    font-size: 12px;    /* For desktop */
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+
+/* for navbar */
+
+/* nav {
+
+} */
